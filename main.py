@@ -207,7 +207,7 @@ class MainWindow(QMainWindow):
             self.ui.update_note_content.setText(str(result[1]))
         except:
             self.ui.update_note_content.setText("OooPs!... \n No Content Exist For Record with Id of {}".format(id))
-            self.toast.show_toast(title="MOTHER PHYSICS V1.0", msg="Database Refresh Successful", icon_path="icons/atom.ico", threaded=True)
+            self.toast.show_toast(title="ELEMENTARY PHYSICS V1.0", msg="Database Refresh Successful", icon_path="icons/atom.ico", threaded=True)
             
             
 
@@ -225,7 +225,7 @@ class MainWindow(QMainWindow):
             self.ui.update_note_content.setText("An Error Occured While Trying to Add Data to the database \n Record Not Inserted to Database...")
         else:
             self.ui.update_note_content.setText("Record Added To Database Successfully!.. \n Click the Refresh Button To Continue ==>")
-            self.toast.show_toast(title="MOTHER PHYSICS V1.0", msg="Record Successfully Added To The Database", icon_path="icons/atom.ico", threaded=True)
+            self.toast.show_toast(title="ELEMENTARY PHYSICS V1.0", msg="Record Successfully Added To The Database", icon_path="icons/atom.ico", threaded=True)
             
         
     
@@ -244,7 +244,7 @@ class MainWindow(QMainWindow):
             self.ui.update_note_content.setText("There Was An Error While Trying to Update Database Content")
         else:
             self.ui.update_note_content.setText("Database Update Was Successful... \n Click Refresh Button to Continue ==>")
-            self.toast.show_toast(title="MOTHER PHYSICS V1.0", msg="Update To The Database Was Successful", icon_path="icons/atom.ico", threaded=True)
+            self.toast.show_toast(title="ELEMENTARY PHYSICS V1.0", msg="Update To The Database Was Successful", icon_path="icons/atom.ico", threaded=True)
             
     
     def delete(self):
@@ -257,7 +257,7 @@ class MainWindow(QMainWindow):
             self.ui.update_note_content.setText("Unable To Delete Database Record")
         else:
             self.ui.update_note_content.setText("Record Deleted Successfully... \n Click Refresh Button to Continue ==>")
-            self.toast.show_toast(title="MOTHER PHYSICS V1.0", msg="Database Record Deleted Successfully!", icon_path="icons/atom.ico", threaded=True)
+            self.toast.show_toast(title="ELEMENTARY PHYSICS V1.0", msg="Database Record Deleted Successfully!", icon_path="icons/atom.ico", threaded=True)
     def set_url(self):
         the_url = self.ui.browser_input.text()
         self.ui.widget_2.load(QUrl(the_url))

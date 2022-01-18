@@ -1413,7 +1413,7 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
 
         self.Home.setCurrentIndex(0)
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(3)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -1424,7 +1424,7 @@ class Ui_MainWindow(object):
         self.home_calculate_ans.setText(QCoreApplication.translate("MainWindow", u"Calculate Answer", None))
         self.home_note.setText(QCoreApplication.translate("MainWindow", u"Notes", None))
         self.home_convert.setText(QCoreApplication.translate("MainWindow", u"Converter", None))
-        self.label.setText(QCoreApplication.translate("MainWindow", u"MOTHER PHYSICS", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"Elementary Physics", None))
         self.pushButton.setText("")
         self.app_description.setText(QCoreApplication.translate("MainWindow", u"This Application is Specially Designed to Offer Solution to Problems of Engineering Physics-II As per Syllabus of Obafemi Awolowo University revised July 2021", None))
         self.home_about.setText(QCoreApplication.translate("MainWindow", u"About", None))
@@ -1448,7 +1448,7 @@ class Ui_MainWindow(object):
                         ";\"><br /></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/icons/icons/note.ico\" /></p>\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt; font-weight:600;\">WELCOME TO MOTHER PHYSICS V1.0</span></p>\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt; font-weight:600;\">WELCOME TO ELEMENTARY PHYSICS V1.0</span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">The Future to an A.I powered physics</span></p></body></html>", None))
         self.next_note.setText(QCoreApplication.translate("MainWindow", u">>", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"          MOMENTUM CALCULATOR   ", None))
@@ -1492,26 +1492,26 @@ class Ui_MainWindow(object):
 
         self.convert_answer.setText("")
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"Calculate Answer", None))
-        self.label_8.setText(QCoreApplication.translate("MainWindow", u"ABOUT MOTHER PHYSICS V1.0", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"ABOUT ELEMENTARY PHYSICS V1.0", None))
         self.textBrowser_3.setHtml(QCoreApplication.translate("MainWindow", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-weight:600;\">ABOUT MOTHER PHYSICS</span></p>\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-weight:600;\">ABOUT ELEMENTARY PHYSICS</span></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">This Application is Specially Designed to Offer Solution to Problems of Engineering Physics-II As per Syllabus of Obafemi Awolowo University revised July 2021</span></p>\n"
-"<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin"
-                        "-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; ma"
+                        "rgin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-weight:600;\">APPLICATION DETAILS</span></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt; font-weight:600;\"><br /></p>\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">This Application is Specially designed to offer solution to problems of Engineering Physics-II as per Syllabus of Obafemi Awolowo University revised December 12 2021.</span></p"
-                        ">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">This Application is Specially designed to offer solution to problems of Engineering Physics-II as per Syllabus of Obafemi Awolowo University revised December 12 2021.</span"
+                        "></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br /></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">The Special Features of this application is the popullated in built database, Browser and inbuilt calculator through which student can calculate the result of problem statment</span></p>\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br /></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Solved examples and formula list has also been provided for references</span></p>\n"
-"<p align=\"c"
-                        "enter\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br /></p>\n"
+"<p align"
+                        "=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br /></p>\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/icons/icons/physics.jpg\" /></p></body></html>", None))
         self.label_3.setText("")
         self.solved_examples_btn.setText(QCoreApplication.translate("MainWindow", u"About", None))
@@ -1527,6 +1527,6 @@ class Ui_MainWindow(object):
         self.update_count_label.setText(QCoreApplication.translate("MainWindow", u"Count", None))
         self.update_refresh_btn.setText(QCoreApplication.translate("MainWindow", u"Refresh", None))
         self.Home.setTabText(self.Home.indexOf(self.update_page), QCoreApplication.translate("MainWindow", u"UPDATE", None))
-        self.my_toggle_button.setText(QCoreApplication.translate("MainWindow", u"MOTHER PHYSICS 1.0", None))
+        self.my_toggle_button.setText(QCoreApplication.translate("MainWindow", u"ELEMENTARY PHYSICS 1.0", None))
     # retranslateUi
 
